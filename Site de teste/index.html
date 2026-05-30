@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retrospectiva</title>
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="Retrospectiva personalizada." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="foto1.jpeg" />
+</head>
+<body>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="gif1.mp4" type="video/mp4" />
+  </video>
+
+  <div id="bg-mobile" aria-hidden="true"></div>
+
+  <div id="intro">
+    <div class="intro-box">
+      <h1><!-- Coloque o título da introdução aqui --></h1>
+      <p><!-- Coloque o texto da introdução aqui --></p>
+      <button id="btnStart" type="button">Começar</button>
+    </div>
+  </div>
+
+  <header>
+    <h1><!-- Coloque o título principal aqui --></h1>
+    <p><!-- Coloque o texto principal aqui --></p>
+  </header>
+
+  <main id="galeria">
+    <section class="memory-card">
+      <h2><!-- Título da foto 1 --></h2>
+      <img src="foto1.jpeg" alt="Memória 1" class="foto-click" data-id="foto1" loading="lazy" />
+      <p><!-- Texto da foto 1 --></p>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 2 --></h2>
+      <img src="foto2.jpeg" alt="Memória 2" class="foto-click" data-id="foto2" loading="lazy" />
+      <p><!-- Texto da foto 2 --></p>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 3 --></h2>
+      <img src="foto3.jpeg" alt="Memória 3" class="foto-click" data-id="foto3" loading="lazy" />
+      <p><!-- Texto da foto 3 --></p>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 4 --></h2>
+      <img src="foto4.jpeg" alt="Memória 4" class="foto-click" data-id="foto4" loading="lazy" />
+      <p><!-- Texto da foto 4 --></p>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 5 --></h2>
+      <img src="foto5.jpeg" alt="Memória 5" class="foto-click" data-id="foto5" loading="lazy" />
+      <p><!-- Texto da foto 5 --></p>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 6 --></h2>
+      <img src="foto6.jpeg" alt="Memória 6" class="foto-click" data-id="foto6" loading="lazy" />
+      <p><!-- Texto da foto 6 --></p>
+    </section>
+
+    <section class="skills-box">
+      <h2><!-- Título da área de botões --></h2>
+      <div class="skills-grid">
+        <button class="skill-card" type="button" data-id="skill1"><span><!-- Botão 1 --></span></button>
+        <button class="skill-card" type="button" data-id="skill2"><span><!-- Botão 2 --></span></button>
+        <button class="skill-card" type="button" data-id="skill3"><span><!-- Botão 3 --></span></button>
+        <button class="skill-card" type="button" data-id="skill4"><span><!-- Botão 4 --></span></button>
+        <button class="skill-card" type="button" data-id="skill5"><span><!-- Botão 5 --></span></button>
+        <button class="skill-card" type="button" data-id="skill6"><span><!-- Botão 6 --></span></button>
+      </div>
+    </section>
+
+    <section class="memory-card">
+      <h2><!-- Título da foto 7 --></h2>
+      <img src="foto7.jpeg" alt="Memória 7" class="foto-click" data-id="foto7" loading="lazy" />
+      <p><!-- Texto da foto 7 --></p>
+    </section>
+  </main>
+
+  <div id="popup" aria-hidden="true">
+    <div class="popup-box" role="dialog" aria-modal="true" aria-labelledby="tituloPopup">
+      <div class="casal">💜</div>
+      <h2 id="tituloPopup"></h2>
+      <p id="textoPopup"></p>
+      <button id="btnClose" type="button">Continuar</button>
+    </div>
+  </div>
+
+  <audio id="musica"></audio>
+
+  <footer>
+    <p><!-- Texto final/rodapé aqui --></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
