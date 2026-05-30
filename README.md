@@ -4,7 +4,7 @@
 >
 > Este projeto foi desenvolvido com auxílio de Inteligência Artificial e teve como objetivo principal servir como um experimento de exploração das capacidades de geração de interfaces, animações, interações e experiências web personalizadas.
 >
-> A versão disponibilizada neste repositório não contém imagens, músicas ou conteúdos pessoais, pois a versão original foi criada como um presente particular para uma pessoa especial. Todos os arquivos de mídia e textos personalizados foram removidos por questões de privacidade.
+> A versão disponibilizada neste repositório não contém imagens, músicas ou conteúdos pessoais, pois a versão original foi criada como um presente particular para uma pessoa especial. Todos os arquivos de mídia e textos personalizados foram removidos por questões de privacidade e direitos autorais no caso das músicas.
 
 ## Sobre o Projeto
 
